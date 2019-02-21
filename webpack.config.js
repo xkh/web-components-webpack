@@ -5,7 +5,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'hello-xkh.js',
-        library: 'XKH',
+        library: 'xkh',
         libraryTarget: 'umd'
     }
 };
