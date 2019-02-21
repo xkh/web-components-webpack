@@ -1,7 +1,7 @@
-function textLib() {
+function toSay() {
     alert('hello xkh~')
 };
 
-export const xkh = {
-    textLib
+export{
+    toSay
 }
