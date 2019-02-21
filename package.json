@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "build-lib": "rm -rf ./dist/lib.js ./dist/lib.js.map ./dist/manifest.lib.json && webpack --config ./webpack/config/dll.js"
+    "dev": "rm -rf ./dist && webpack --mode development --config webpack.config.js",
+    "build": "rm -rf ./dist && webpack --mode production --config webpack.config.js"
   },
   "main": "dist/hello-xkh.js",
   "module": "src/index.js",
-  "dependencies": {
-    "@polymer/polymer": "^3.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "webpack": "^4.29.5"
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }
