@@ -1,5 +1,5 @@
 const toSay = (num) => {
-    alert(`hello xkh~ 你输入了${num}`)
+    console.log(`hello xkh~ 你输入了${num}`)
 };
 
 export{
