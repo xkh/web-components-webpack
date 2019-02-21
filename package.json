@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "rm -rf ./dist && webpack --mode development --config webpack.config.js",
-    "build": "rm -rf ./dist && webpack --mode production --config webpack.config.js"
+    "build": "rm -rf ./dist && webpack --mode production --config webpack.config.js",
+    "deploy": "git add . && git commit -m 'deploy' && git push origin/master"
   },
   "main": "dist/hello-xkh.js",
   "module": "src/index.js",
