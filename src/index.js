@@ -2,7 +2,6 @@ function textLib() {
     alert('hello xkh~')
 };
 
-
-export const xkh = {
+window.xkh = {
     textLib
-};
+}
