@@ -1,5 +1,8 @@
-function toSay() {
-    alert('hello xkh~')
+/**
+ *
+ */
+function toSay(num) {
+    alert(`hello xkh~ 你输入了${num}`)
 };
 
 export{
